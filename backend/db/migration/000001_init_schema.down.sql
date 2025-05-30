@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS users
+DROP TABLE IF EXISTS user_profiles
+DROP TABLE IF EXISTS companies
+DROP TABLE IF EXISTS company_financials
+DROP TABLE IF EXISTS investments
+DROP TABLE IF EXISTS equity_tokens
+DROP TABLE IF EXISTS crowdfunding_campaigns
+DROP TABLE IF EXISTS campaign_investments
+DROP TABLE IF EXISTS revenue_shares
+DROP TABLE IF EXISTS risk_assessments
+DROP TABLE IF EXISTS  transactions
+DROP TABLE IF EXISTS equity_market_listings
+DROP TABLE IF EXISTS equity_trades
+DROP TABLE IF EXISTS investment_portfolios
+DROP TABLE IF EXISTS portfolio_holdings
+DROP TABLE IF EXISTS analytics_events
