@@ -1,0 +1,69 @@
+name: autoflex
+description: Autoflex App
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+
+dependencies:
+  async_redux: ^18.0.2
+  build_runner: ^2.4.6 
+  package_info_plus: ^8.3.0
+  cupertino_icons: ^1.0.6 
+  dotted_border: ^2.0.0+3
+  fl_country_code_picker: ^0.0.4
+  flutter:
+    sdk: flutter
+  flutter_animation_progress_bar: ^2.3.1
+  flutter_dotenv: ^5.1.0 
+  freezed: ^2.3.2
+  freezed_annotation: ^2.2.0
+  flexible_carousel_slider: ^0.0.1
+  flutter_graphql_client: ^0.2.2
+  flutter_polyline_points: ^1.0.0
+  flutter_svg: ^1.1.6
+  geolocator: ^9.0.2
+  google_fonts: ^3.0.1
+  google_maps_flutter: ^2.4.1 
+  google_places_flutter: ^2.0.6 
+  http: ^0.13.6
+  image_picker: ^0.8.9 
+  json_annotation: ^4.8.1 
+  json_serializable: ^6.7.1
+  pin_code_fields: ^7.4.0
+  quiver: ^3.2.1
+  sentry_flutter: ^8.14.2 
+  smooth_page_indicator: ^1.0.0+2
+  sqflite: ^2.3.0  
+  supabase_flutter: ^1.10.14 
+  tflite_flutter: ^0.9.5  
+  provider: ^6.0.3
+  flutter_riverpod: ^2.3.10
+  tflite_flutter_plus: ^0.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3 
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+  - .env
+  - assets/
+  - assets/icons/
+  - assets/images/
+
+
+  
